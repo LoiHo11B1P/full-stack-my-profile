@@ -2,16 +2,14 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>My Profile</title>
 </head>
 
 <body>
-    <H1>
-        My Portfolio
-    </H1>
-    <!-- 
+  <!-- 
       Directions:
         1. Create a DIV element to contain the page content
         2. Inside your DIV, create an H1 tag that contains your name as the text
@@ -32,6 +30,45 @@
           - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
           - In your contact me section, make the text "Phone:" and "Email:" bolded
      -->
+  <div>
+    <div class="name-intro">
+      <h1>Vinh Quang Pham</h1>
+      <h2>Software Developer</h2>
+    </div>
+    <div class="about-intro">
+      <div class="grid-item1">
+        <img id="my-img" alt="Picture of Vinh Pham" src="images/VinhCV.jpg" width="200" height="200">
+        <br>
+        <p id="my-quote">
+          "Learn through <i>struggle</i> and never give up!"
+        </p>
+    </div>
+    <div class="grid-item2">
+      <h3>About Me</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    </div>
+    <div class="project-grid">
+      <h3 id='project-row1'>My Projects</h3>
+      <ul class='project-collect'>
+        <li class="project-item">Project 1</li>
+        <li class="project-item">Project 2</li>
+        <li class="project-item">Project 3</li>
+      </ul>
+  </div>
+  <div class="footer-grid">
+    <h3 class="footer-row1">Contact Me</h3>
+    <p class="footer-row2" id="footer-item1" >
+      <b>Phone:</b> 714-555-5555
+    </p>
+    <a class="footer-row3" id="footer-item2"  href="mailto:fake@email.com"><b>Email Me</b></a>
+  </div>
+  </div>
 </body>
 
 </html>
